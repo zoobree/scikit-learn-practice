@@ -142,9 +142,9 @@ target/
 
 # Jupyter Notebook
 
-.ipynb_checkpoints
-*/.ipynb_checkpoints
-*/*/.ipynb_checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*/*/.ipynb_checkpoints/
 
 
 # pyenv
@@ -214,3 +214,5 @@ venv.bak/
 
 #test data
 data/
+*/*.pickle
+*/*/*.pickle
